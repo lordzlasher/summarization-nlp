@@ -26,7 +26,8 @@ npm install
 ```
 2. Jalan aplikasi
 ```bash
-npm install
+npm run dev
 ``` 
+3. Aplikasi akan berjalan pad localhost:3000
 4. Masukan kalimat yang ingin diringkas pada kolom Enter Your Text.
 5. Tekan tombol summarize untuk mendapatkan hasil ringkasan yang telah dimasukan dan hasil bisa dilihat pada kolom Summarized Text.
