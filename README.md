@@ -1,7 +1,5 @@
-# summarization-nlp
-Final project for Natural Languange Processing Class at Information Technology Udayana University
-
 # Deskripsi Aplikasi
+Text summarization adalah proses mengurangi teks yang panjang dan kompleks menjadi versi yang lebih pendek dan lebih mudah dipahami, yang menyajikan informasi penting dari teks asli. Aplikasi text summarization bertujuan untuk membantu pengguna memahami ide-ide utama dari teks dengan cepat dan mudah, tanpa harus membaca seluruh teks.
 
 # Arsitektur Aplikasi
 Aplikasi yang dibuat berbasis website dengan menggunakan Next.js sebagai framework frontend serta backend. Pemanggilan model menggunakan API dari RapidAPI
@@ -17,6 +15,8 @@ BART ("Bidirectional Encoder Representations from Transformers") adalah model pe
 # Testing
 
 # Evaluasi
+Evaluasi model menggunakan ROUGE dengan hasil evaluasi
+rouge1: 0.37 | rouge2: 0.09 | rougeL: 0.09 --> avg rouge: 0.25
 
 # Cara Menjalankan Aplikai
  Cara menjalankan aplikasi text summarization sebagai berikut.
