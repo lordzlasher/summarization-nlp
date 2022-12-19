@@ -6,12 +6,12 @@ Aplikasi yang dibuat berbasis website dengan menggunakan Next.js sebagai client-
 RapidAPI ini merupakan salah satu jenis platform yang dapat membantu kita untuk memungkinakan terhubung dengan banyak koleksi API publik yang dimana itu akan membantu meningkatkan proses pengmbangan suatu software yang kita bangun.
 
 # Struktur
-[`pages directory`] : It has the index.js file, which is the entry point of our app, basically the home page. It also has_app.js and another directory named api, where we will store the requests to our API.
-[`public directory`] : It holds assets. You can place your static files here to load later in the application.
-[`package.json`] : This file contains the metadata of your project.
-[`package-lock.json`] : This file is responsible for tracking the exact version of every installed package.
-[`postcss.config.js`] : This file contains PostCSS configurations.
-[`tailwind.config.js`] : It contains TailwindCSS configurations.
+- `pages directory` : It has the index.js file, which is the entry point of our app, basically the home page. It also has_app.js and another directory named api, where we will store the requests to our API.\n
+- `public directory` : It holds assets. You can place your static files here to load later in the application.
+- `package.json` : This file contains the metadata of your project.
+- `package-lock.json` : This file is responsible for tracking the exact version of every installed package.
+- `postcss.config.js` : This file contains PostCSS configurations.
+- `tailwind.config.js` : It contains TailwindCSS configurations.
 
 # Dataset
 Dataset CNN / DailyMail adalah kumpulan data berbahasa Inggris yang berisi lebih dari 300 ribu artikel berita unik seperti yang ditulis oleh jurnalis di CNN dan Daily Mail. Versi saat ini mendukung peringkasan ekstraktif dan abstraktif, meskipun versi aslinya dibuat untuk membaca dan memahami mesin serta menjawab pertanyaan abstraktif.
