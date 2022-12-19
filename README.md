@@ -20,6 +20,13 @@ rouge1: 0.37 | rouge2: 0.09 | rougeL: 0.09 --> avg rouge: 0.25
 
 # Cara Menjalankan Aplikai
  Cara menjalankan aplikasi text summarization sebagai berikut.
- 1. ketik peirntah di termninal vscode npm run dev untuk menjalankan aplikasi secara localhost.
- 2. Masukan kalimat yang ingin diringkas pada kolom Enter Your Text.
- 3. Tekan tombol summarize untuk mendapatkan hasil ringkasan yang telah dimasukan dan hasil bisa dilihat pada kolom Summarized Text.
+ 1. Instal seluruh dependencies yang terdapat di program
+ ```bash
+npm install
+```
+2. Jalan aplikasi
+```bash
+npm install
+``` 
+4. Masukan kalimat yang ingin diringkas pada kolom Enter Your Text.
+5. Tekan tombol summarize untuk mendapatkan hasil ringkasan yang telah dimasukan dan hasil bisa dilihat pada kolom Summarized Text.
