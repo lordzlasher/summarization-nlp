@@ -2,7 +2,8 @@
 Text summarization adalah proses mengurangi teks yang panjang dan kompleks menjadi versi yang lebih pendek dan lebih mudah dipahami, yang menyajikan informasi penting dari teks asli. Aplikasi text summarization bertujuan untuk membantu pengguna memahami ide-ide utama dari teks dengan cepat dan mudah, tanpa harus membaca seluruh teks.
 
 # Arsitektur Aplikasi
-Aplikasi yang dibuat berbasis website dengan menggunakan Next.js sebagai client-side dan TailwindCSS untuk style. Pemanggilan model menggunakan API dari RapidAPI
+Aplikasi yang dibuat berbasis website dengan menggunakan Next.js sebagai client-side dan TailwindCSS untuk style. Pemanggilan model menggunakan API dari RapidAPI.
+RapidAPI ini merupakan salah satu jenis platform yang dapat membantu kita untuk memungkinakan terhubung dengan banyak koleksi API publik yang dimana itu akan membantu meningkatkan proses pengmbangan suatu software yang kita bangun.
 
 # Struktur
 [`pages directory`] : It has the index.js file, which is the entry point of our app, basically the home page. It also has_app.js and another directory named api, where we will store the requests to our API.
