@@ -39,3 +39,6 @@ npm run dev
 3. Aplikasi akan berjalan pad localhost:3000
 4. Masukan kalimat yang ingin diringkas pada kolom Enter Your Text.
 5. Tekan tombol summarize untuk mendapatkan hasil ringkasan yang telah dimasukan dan hasil bisa dilihat pada kolom Summarized Text.
+
+file .env.local
+NEXT_PUBLIC_RAPIDAPI_KEY=e16afca1ecmshb0a6c0cad56fcfap1b55fbjsn0e313ba75a01
