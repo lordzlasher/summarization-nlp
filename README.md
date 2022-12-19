@@ -2,7 +2,15 @@
 Text summarization adalah proses mengurangi teks yang panjang dan kompleks menjadi versi yang lebih pendek dan lebih mudah dipahami, yang menyajikan informasi penting dari teks asli. Aplikasi text summarization bertujuan untuk membantu pengguna memahami ide-ide utama dari teks dengan cepat dan mudah, tanpa harus membaca seluruh teks.
 
 # Arsitektur Aplikasi
-Aplikasi yang dibuat berbasis website dengan menggunakan Next.js sebagai framework frontend serta backend. Pemanggilan model menggunakan API dari RapidAPI
+Aplikasi yang dibuat berbasis website dengan menggunakan Next.js sebagai client-side dan TailwindCSS untuk style. Pemanggilan model menggunakan API dari RapidAPI
+
+#Struktur
+[`pages directory`] : It has the index.js file, which is the entry point of our app, basically the home page. It also has_app.js and another directory named api, where we will store the requests to our API.
+['public directory']: It holds assets. You can place your static files here to load later in the application.
+['package.json']: This file contains the metadata of your project.
+['package-lock.json']: This file is responsible for tracking the exact version of every installed package.
+['postcss.config.js']: This file contains PostCSS configurations.
+['tailwind.config.js']: It contains TailwindCSS configurations.
 
 # Dataset
 Dataset CNN / DailyMail adalah kumpulan data berbahasa Inggris yang berisi lebih dari 300 ribu artikel berita unik seperti yang ditulis oleh jurnalis di CNN dan Daily Mail. Versi saat ini mendukung peringkasan ekstraktif dan abstraktif, meskipun versi aslinya dibuat untuk membaca dan memahami mesin serta menjawab pertanyaan abstraktif.
